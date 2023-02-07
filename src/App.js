@@ -12,6 +12,17 @@ function App() {
   
   return (
     <div>
+        <div className="navbar-fixed">
+          <nav>
+            <div className="nav-wrapper">
+              <a href="#!" className="brand-logo">Pokedex</a>
+              
+            </div>
+            <a className="waves-effect waves-light btn right" id="toggleInfo">Toggle details</a>
+        
+          </nav>
+          </div>
+        
       <PokemonList
         pokemonList={pokemon}
       />
