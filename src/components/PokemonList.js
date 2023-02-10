@@ -15,7 +15,7 @@ const PokemonList = (props) => {
     );
   });
   return (
-    <ul className="collection">
+    <ul className="collection row">
       {pokeComponents}
     </ul>
   );
